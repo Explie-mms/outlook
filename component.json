@@ -236,6 +236,23 @@
                 "in": "./lib/schemas/createEvent.in.json",
                 "out": "./lib/schemas/createEvent.out.json"
             }
+        },
+      "fetchEmails": {
+        "title": "Create Event",
+        "main": "./lib/actions/fetchEmails.js",
+        "fields": {
+          "folderId": {
+            "viewClass": "SelectView",
+            "prompt": "Select a Folder",
+            "label": "Folder",
+            "required": true,
+            "model": "getFolders"
+          }
+        },
+        "metadata": {
+          "in": "./lib/schemas/createEvent.in.json",
+          "out": "./lib/schemas/createEvent.out.json"
         }
+      }
     }
 }
