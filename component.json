@@ -238,7 +238,7 @@
             }
         },
       "fetchEmails": {
-        "title": "Create Event",
+        "title": "Fetch Emails",
         "main": "./lib/actions/fetchEmails.js",
         "fields": {
           "folderId": {
