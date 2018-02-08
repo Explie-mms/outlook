@@ -248,10 +248,6 @@
             "required": true,
             "model": "getFolders"
           }
-        },
-        "metadata": {
-          "in": "./lib/schemas/createEvent.in.json",
-          "out": "./lib/schemas/createEvent.out.json"
         }
       }
     }
