@@ -30,7 +30,8 @@
                 "User.Read",
                 "Contacts.Read",
                 "Profile",
-                "Calendars.ReadWrite"
+                "Calendars.ReadWrite",
+                "Mail.Read"
             ]
         }
     },
